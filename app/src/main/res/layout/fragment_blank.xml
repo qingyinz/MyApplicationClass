@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:name="android.support.v4.app.ListFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.jinqh.myapplicationclass.BlankFragment">
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/LL2"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           >
+
+            <TableLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@drawable/line_h"
+                android:orientation="vertical"
+                android:showDividers="beginning|middle|end"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@drawable/line_h"
+                    android:orientation="horizontal"
+                    android:showDividers="beginning|middle|end">>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="周/节次" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="星期一" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="星期二" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="星期三" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="星期四" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="星期五" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:divider="@drawable/line_h"
+                    android:showDividers="beginning|middle|end">>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="第一大节" />
+
+                    <TextView
+                        android:id="@+id/tx011"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx012"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx013"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx014"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx015"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+                </TableRow>
+
+                <TableRow
+
+                    android:divider="@drawable/line_h"
+                    android:showDividers="beginning|middle|end">>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="第二大节" />
+
+                    <TextView
+                        android:id="@+id/tx021"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx022"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx023"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx024"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx025"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                </TableRow>
+
+                <TableRow
+
+                    android:divider="@drawable/line_h"
+                    android:showDividers="beginning|middle|end">>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="第三大节" />
+
+                    <TextView
+                        android:id="@+id/tx031"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx032"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx033"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx034"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx035"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+                </TableRow>
+
+                <TableRow
+
+                    android:divider="@drawable/line_h"
+                    android:showDividers="beginning|middle|end">>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="第四大节" />
+
+                    <TextView
+                        android:id="@+id/tx041"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx042"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx043"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx044"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx045"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+                </TableRow>
+
+                <TableRow
+
+                    android:divider="@drawable/line_h"
+                    android:showDividers="beginning|middle|end">>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="第五大节" />
+
+                    <TextView
+                        android:id="@+id/tx051"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx052"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx053"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx054"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx055"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+                </TableRow>
+
+                <TableRow
+
+                    android:divider="@drawable/line_h"
+                    android:showDividers="beginning|middle|end">>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text="第六大节" />
+
+                    <TextView
+                        android:id="@+id/tx061"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx062"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx063"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx064"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tx065"
+                        android:layout_width="1dp"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:text=" "
+                        android:textSize="12dp" />
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/LL1"
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:divider="@drawable/line_top"
+        android:orientation="horizontal"
+        android:showDividers="beginning|middle|end">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="物联1603班" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:text="课表查询" />
+
+        <TextView
+            android:id="@+id/zhouci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:padding="8dp"
+            android:text="周次：" />
+
+        <Button
+            android:id="@+id/butselect1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg_red"
+            android:text="查询" />
+    </LinearLayout>
+
+</FrameLayout>

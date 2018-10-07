@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">物美家联</string>
+    <string name="title_home">课表</string>
+    <string name="title_dashboard">小伙伴</string>
+    <string name="title_notifications">作息</string>
+    <string name="title_4">活动</string>
+    <string name="title_5">关于</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">1Hello blank fragment</string>
+    <string name="hello_blank_fragment2">2Hello blank fragment</string>
+    <string name="hello_blank_fragment3">3Hello blank fragment</string>
+    <string name="hello_blank_fragment4">4Hello blank fragment</string>
+    <string name="hello_blank_fragment5">5Hello blank fragment</string>
+    <string name="shebei">智能设备应用开发</string>
+    <string name="shizhan">物联网项目实战</string>
+    <string name="zhitu">电子工程制图</string>
+    <string name="jicheng">物联网系统集成技术</string>
+    <string name="qiuzhi">求职能力提升训练</string>
+    <string name="place4">3-404</string>
+    <string name="place5">3-405</string>
+    <string name="place6">3-406</string>
+    <string name="place8">3-408</string>
+
+
+</resources>
